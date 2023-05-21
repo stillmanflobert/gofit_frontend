@@ -44,6 +44,26 @@ const router = new VueRouter({
           path: '/kasir/kasirDashboard',
           name: 'kasirDashboard',
           component: () => import('../components/kasir/memberIndex.vue'),
+        },
+        {
+          path: '/kasir/memberKadaluarsa',
+          name: 'memberKadaluarsa',
+          component: () => import('../components/kasir/memberKadaluarsa.vue'),
+        },
+        {
+          path: '/kasir/kelasKadaluarsa',
+          name: 'kelasKadaluarsa',
+          component: () => import('../components/kasir/depositKelasKadaluarsa.vue'),
+        },
+        {
+          path: '/kasir/presensiGym',
+          name: 'presensiGym',
+          component: () => import('../components/kasir/presensiGym.vue'),
+        },
+        {
+          path: '/kasir/presensiKelas',
+          name: 'presensiKelas',
+          component: () => import('../components/kasir/presensiKelas.vue'),
         }
       ]
     },
@@ -63,9 +83,14 @@ const router = new VueRouter({
           component: () => import('../components/mo/jadwalUmum.vue'),
         },
         {
-          path: '/mo/test',
-          name: 'coba',
-          component: () => import('../components/mo/test.vue'),
+          path: '/mo/jadwalHarian',
+          name: 'jadwalHarian',
+          component: () => import('../components/mo/jadwalHarian.vue'),
+        },
+        {
+          path: '/mo/izinInstruktur',
+          name: 'izinInstruktur',
+          component: () => import('../components/mo/izinInstruktur.vue'),
         }
       ]
     }

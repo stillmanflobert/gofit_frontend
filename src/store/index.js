@@ -15,6 +15,12 @@ const store = new Vuex.Store({
         dataMember: null,
         dataKelas: null,
         dataJadwalUmum: null,
+        dataJadwalHarian: null,
+        izinInstruktur: null,
+        memberKadaluarsa: null,
+        kelasKadaluarsa: null,
+        presensiGym: null,
+        presensiKelas: null,
     },
     mutations: {
         setDataUser(state, payload) {
@@ -40,6 +46,24 @@ const store = new Vuex.Store({
         },
         setDataJadwalUmum(state, payload) {
             state.dataJadwalUmum = payload;
+        },
+        setDataJadwalHarian(state, payload) {
+            state.dataJadwalHarian = payload;
+        },
+        setDataIzinInstruktur(state, payload) {
+            state.izinInstruktur = payload;
+        },
+        setDataMemberKadaluarsa(state, payload) {
+            state.memberKadaluarsa = payload;
+        },
+        setDataKelasKadaluarsa(state, payload) {
+            state.kelasKadaluarsa = payload;
+        },
+        setDataPresensiGym(state, payload) {
+            state.presensiGym = payload;
+        },
+        setDataPresensiKelas(state, payload) {
+            state.presensiKelas = payload;
         }
     },
     actions: {

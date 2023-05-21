@@ -67,12 +67,14 @@ export default {
                         const dataJadwalUmum = await axios.get(store.state.domainName + 'jadwal-default')
                         const instruktur = await axios.get(store.state.domainName + 'instruktur')
                         const kelas = await axios.get(store.state.domainName + 'kelas')
+                        const izin = await axios.get(store.state.domainName + 'izin-instruktur');
                         store.commit('setDataUser', this.dataDashboad.data)
                         store.commit('setLoginInfo', this.dataInfo.data)
                         store.commit('setDataKelas', this.dataKelas.data)
                         store.commit('setDataJadwalUmum', dataJadwalUmum.data)
                         store.commit('setDataInstruktur', instruktur.data)
                         store.commit('setDataKelas', kelas.data)
+                        store.commit('setDataIzinInstruktur', izin.data)
                         this.$router.push('/mo/moDashboard')
                     } else if (response.data.data.role == 'kasir') {
                         this.id = response.data.data.id_user
