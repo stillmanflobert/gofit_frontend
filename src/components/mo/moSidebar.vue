@@ -127,6 +127,9 @@ export default {
             items: [
                 { title: "Kelas", to: "/mo/moDashboard", icon: 'mdi-clipboard-account' },
                 { title: "Jadwal Umum", to: "/mo/jadwalUmum", icon: 'mdi-scale' },
+                { title: "Jadwal Harian", to: "/mo/jadwalHarian", icon: 'mdi-bullseye' },
+                { title: "Izin Instruktur", to: "/mo/izinInstruktur", icon: 'mdi-account-off' },
+                { title: "Laporan", to: "/mo/laporan", icon: 'mdi-clipboard-outline' },
             ],
             user: {
                 newPassword: '',

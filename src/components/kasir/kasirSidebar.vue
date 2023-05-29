@@ -127,6 +127,10 @@ export default {
             newDataUser: null,
             items: [
                 { title: "Member", to: "/kasir/kasirDashboard", icon: 'mdi-folder' },
+                { title: "Member Kadaluarsa", to: "/kasir/memberKadaluarsa", icon: 'mdi-account-remove' },
+                { title: "Kelas Kadaluarsa", to: "/kasir/kelasKadaluarsa", icon: 'mdi-alarm-off' },
+                { title: "Presensi Gym", to: "/kasir/presensiGym", icon: 'mdi-clipboard-check' },
+                { title: "Presensi Kelas", to: "/kasir/presensiKelas", icon: 'mdi-human' },
             ],
             user: {
                 newPassword: '',

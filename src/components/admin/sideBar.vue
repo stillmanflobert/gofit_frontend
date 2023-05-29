@@ -128,7 +128,7 @@ export default {
             items: [
                 { title: "Promo Dashboard", to: "/admin/adminDashboard", icon: 'mdi-folder' },
                 { title: "Pegawai", to: "/admin/context", icon: 'mdi-account-box' },
-                { title: "Instruktur", to: "/admin/dataInstruktur", icon: 'mdi-run' },
+                { title: "Instruktur", to: "/admin/dataInstruktur", icon: 'mdi-run' },,
             ],
             user: {
                 newPassword: '',
