@@ -91,11 +91,14 @@ const router = new VueRouter({
           path: '/mo/izinInstruktur',
           name: 'izinInstruktur',
           component: () => import('../components/mo/izinInstruktur.vue'),
+<<<<<<< HEAD
         },
         {
           path: '/mo/laporan',
           name: 'laporam',
           component: () => import('../components/mo/laporan.vue'),
+=======
+>>>>>>> af2a3df52520cad3d627bc251af09b61a752bf8d
         }
       ]
     }

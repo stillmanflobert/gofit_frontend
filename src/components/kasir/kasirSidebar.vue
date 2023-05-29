@@ -130,7 +130,11 @@ export default {
                 { title: "Member Kadaluarsa", to: "/kasir/memberKadaluarsa", icon: 'mdi-account-remove' },
                 { title: "Kelas Kadaluarsa", to: "/kasir/kelasKadaluarsa", icon: 'mdi-alarm-off' },
                 { title: "Presensi Gym", to: "/kasir/presensiGym", icon: 'mdi-clipboard-check' },
+<<<<<<< HEAD
                 { title: "Presensi Kelas", to: "/kasir/presensiKelas", icon: 'mdi-human' },
+=======
+                { title: "Presensi Gym", to: "/kasir/presensiKelas", icon: 'mdi-human' },
+>>>>>>> af2a3df52520cad3d627bc251af09b61a752bf8d
             ],
             user: {
                 newPassword: '',
