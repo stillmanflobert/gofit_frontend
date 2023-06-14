@@ -129,7 +129,14 @@ export default {
                 { title: "Jadwal Umum", to: "/mo/jadwalUmum", icon: 'mdi-scale' },
                 { title: "Jadwal Harian", to: "/mo/jadwalHarian", icon: 'mdi-bullseye' },
                 { title: "Izin Instruktur", to: "/mo/izinInstruktur", icon: 'mdi-account-off' },
+<<<<<<< HEAD
                 { title: "Laporan", to: "/mo/laporan", icon: 'mdi-clipboard-outline' },
+=======
+<<<<<<< HEAD
+                { title: "Laporan", to: "/mo/laporan", icon: 'mdi-clipboard-outline' },
+=======
+>>>>>>> af2a3df52520cad3d627bc251af09b61a752bf8d
+>>>>>>> 21fb5a26408c560e9575012d3782775e9f172ca8
             ],
             user: {
                 newPassword: '',

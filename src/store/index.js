@@ -21,7 +21,10 @@ const store = new Vuex.Store({
         kelasKadaluarsa: null,
         presensiGym: null,
         presensiKelas: null,
+<<<<<<< HEAD
         dataGrafik: null,
+=======
+>>>>>>> 21fb5a26408c560e9575012d3782775e9f172ca8
     },
     mutations: {
         setDataUser(state, payload) {
@@ -65,9 +68,12 @@ const store = new Vuex.Store({
         },
         setDataPresensiKelas(state, payload) {
             state.presensiKelas = payload;
+<<<<<<< HEAD
         },
         setDataGrafik(state, payload) {
             state.dataGrafik = payload;
+=======
+>>>>>>> 21fb5a26408c560e9575012d3782775e9f172ca8
         }
     },
     actions: {

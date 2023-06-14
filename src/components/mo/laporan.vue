@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <template>
+=======
+<template >
+>>>>>>> 21fb5a26408c560e9575012d3782775e9f172ca8
     <v-main class="container">
         <v-card class="pa-8 gym-bg" width="1700">
             <h1 class="text-h3 text-center white--text font-weight-bold">Laporan </h1>
@@ -18,6 +22,7 @@
                 <v-btn color="teal darken-1" dark rounded block @click="processKinerjaInstruktur">Kinerja Instruktur</v-btn>
             </v-col>
         </v-row>
+<<<<<<< HEAD
 
         <!-- Diagram Batang -->
         <v-row>
@@ -33,10 +38,15 @@
     </v-main>
 </template>
 
+=======
+    </v-main>
+</template>
+>>>>>>> 21fb5a26408c560e9575012d3782775e9f172ca8
 <script>
 import axios from 'axios';
 import router from '@/router';
 import store from '@/store/index';
+<<<<<<< HEAD
 import VueApexCharts from 'vue-apexcharts';
 import { ref, onMounted } from 'vue';
 
@@ -95,6 +105,30 @@ export default {
 };
 </script>
 
+=======
+export default{
+    data(){
+        return{
+
+        }
+    },
+    methods:{
+        processCetakAktivasiUang(){
+            window.open(store.state.domainName + 'laporan-aktivasi-deposit');
+        },
+        processDepoKelas(){
+            window.open(store.state.domainName + 'cetak-laporan-kelas');
+        },
+        processAktivitasGym(){
+            window.open(store.state.domainName + 'laporan-gym');
+        },
+        processKinerjaInstruktur(){
+            window.open(store.state.domainName + 'cetak-laporan-instruktur');
+        }
+    }
+}
+</script>
+>>>>>>> 21fb5a26408c560e9575012d3782775e9f172ca8
 <style>
 .gym-bg {
     background-image: url('@/assets/1087580.jpg');
