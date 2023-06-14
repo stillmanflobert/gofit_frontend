@@ -6,7 +6,7 @@ Vue.use(Vuex);
 
 const store = new Vuex.Store({
     state: {
-        domainName: 'http://127.0.0.1:8000/api/',
+        domainName: 'https://system23.site/api/',
         dataUser: null,
         loginInfo: null,
         dataPromo: null,
@@ -21,6 +21,7 @@ const store = new Vuex.Store({
         kelasKadaluarsa: null,
         presensiGym: null,
         presensiKelas: null,
+        dataGrafik: null,
     },
     mutations: {
         setDataUser(state, payload) {
@@ -64,6 +65,9 @@ const store = new Vuex.Store({
         },
         setDataPresensiKelas(state, payload) {
             state.presensiKelas = payload;
+        },
+        setDataGrafik(state, payload) {
+            state.dataGrafik = payload;
         }
     },
     actions: {

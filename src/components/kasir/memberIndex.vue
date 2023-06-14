@@ -218,7 +218,7 @@
                             disabled :value="harga"></v-text-field>
                         <v-text-field v-model=" jumlahBayar " label="Pembayaran" required type="number"
                             disabled :value="totalBayar"></v-text-field>
-                        <v-text-field v-model=" jumlahKelas " label="Jumlah Kelas" required type="number"></v-text-field>
+                            <v-select v-model=" jumlahKelas " label="Jumlah Kelas" :items=[5,10] type="number"></v-select>
 
                     </v-form>
                 </v-card-text>
